@@ -11,7 +11,7 @@ Cách chơi: Hoàn thiện món ăn và giao món ăn ra trước khi hết th�
 Hỗ trợ hệ điều hành Windows 7/8.1/10/11
   
 ## Một số hình ảnh
-  * Menu chính
+  * Giao diện Menu chính
   ![image](https://user-images.githubusercontent.com/85392867/236638859-d8015639-91df-4f48-8a64-a25c0323e159.png)
 
   * Hướng dẫn trước khi bắt đầu
@@ -27,7 +27,7 @@ Hỗ trợ hệ điều hành Windows 7/8.1/10/11
   ![image](https://user-images.githubusercontent.com/85392867/236638924-6cea8b35-73dd-4a15-a8f9-1252642acd38.png)
 
 ## Tài liệu tham khảo
-Unity: https://docs.unity.com/
+Unity: https://docs.unity.com
 
 ## Thành viên
 Nhóm 14 - CNTT5 - K61
