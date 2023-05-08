@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -37,7 +37,7 @@ public class DeliveryResultUI : MonoBehaviour {
         animator.SetTrigger(POPUP);
         backgroundImage.color = failedColor;
         iconImage.sprite = failedSprite;
-        messageText.text = "DELIVERY\nFAILED";
+        messageText.text = "KHÔNG\nNHẬN";
     }
 
     private void DeliveryManager_OnRecipeSuccess(object sender, System.EventArgs e) {
@@ -45,7 +45,7 @@ public class DeliveryResultUI : MonoBehaviour {
         animator.SetTrigger(POPUP);
         backgroundImage.color = successColor;
         iconImage.sprite = successSprite;
-        messageText.text = "DELIVERY\nSUCCESS";
+        messageText.text = "THÀNH\nCÔNG";
     }
 
 }
