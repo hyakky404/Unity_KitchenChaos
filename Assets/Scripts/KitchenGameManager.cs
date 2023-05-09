@@ -14,6 +14,7 @@ public class KitchenGameManager : MonoBehaviour
     private float gamePlayingTimerMax = 300f;
     private bool isGamePaused = false;
 
+
     private enum State
     {
         WaitingToStart,
@@ -41,7 +42,7 @@ public class KitchenGameManager : MonoBehaviour
     private void GameInput_OnInteractAction(object sender, EventArgs e)
     {
         if (state == State.WaitingToStart)
-        {
+        {   
             state = State.CountdownToStart;
             OnStateChanged?.Invoke(this, EventArgs.Empty);
         }

@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,6 +9,7 @@ public class GamePauseUI : MonoBehaviour
     [SerializeField] private Button mainMenuButton;
     [SerializeField] private Button optionsButton;
 
+    //Khoi tao trang thai
     private void Awake()
     {
         resumeButton.onClick.AddListener(() => {
@@ -43,12 +44,14 @@ public class GamePauseUI : MonoBehaviour
         Show();
     }
 
+    //Hiện màn hình Pause
     private void Show()
     {
         gameObject.SetActive(true);
         resumeButton.Select();
     }
 
+    //Ẩn màn hình Pause
     private void Hide()
     {
         gameObject.SetActive(false);
