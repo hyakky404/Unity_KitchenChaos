@@ -4,7 +4,7 @@ Bài tập lớn môn Lí thuyết trò chơi và ứng dụng
 ## Mô tả
 Trò chơi KitchenChaos và là bài tập lớn để đánh giá quá trình học tập của môn học.
 
-Trò chơi được xây dựng bằng công cụ Unity Engine.
+Trò chơi được xây dựng bằng công cụ Unity Engine, phiên bản Unity 2021.3.16f1.
 
 Cách chơi: Hoàn thiện món ăn và giao món ăn ra trước khi hết thời gian.
 
